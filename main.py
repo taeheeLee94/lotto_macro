@@ -9,8 +9,8 @@ LOTTO_URL = 'https://dhlottery.co.kr/user.do?method=login&returnUrl='
 driver.get(LOTTO_URL)
 
 #동행복권 아이디, 비번 입력
-yourID = 'rocket15'
-yourPW = 'ti3us3zg0!'
+yourID = ''
+yourPW = ''
 elem_login = driver.find_element_by_id('userId')
 elem_login.send_keys(yourID)
 
